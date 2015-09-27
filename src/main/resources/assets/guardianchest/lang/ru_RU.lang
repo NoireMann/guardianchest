@@ -1,0 +1,66 @@
+itemGroup.CreativeTabName=Guardian Chests
+tile.guardianChest.name=Посмертный сундук
+tile.LargeGuardianChest.name=Большой посмертный сундук
+item.guardianTier0.name=Инертный посмертный сундук
+item.guardianTier1.name=Пробужденный посмертный сундук
+item.guardianTier2.name=Привязанный посмертный сундук
+item.boundMapTier0.name=Непривязанная карта
+item.boundMapTier1.name=Привязанная карта
+
+
+desc.guardianTier0.Line1=Посмертный сундук будет
+desc.guardianTier0.Line2=сохранять ваш инвентарь в
+desc.guardianTier0.Line3=сундук когда вы умрете. Нажмите 
+desc.guardianTier0.Line4=ПКМ с сундуком в руке чтобы активировать.
+
+desc.guardianTier1.Line1=Этот сундук будет
+desc.guardianTier1.Line2=сохранять ваши вещи после смерти.
+desc.guardianTier1.Line3=Храните его в инвентаре чтобы
+desc.guardianTier1.Line4=он активировался после вашей смерти.
+
+desc.guardianTier2.Line1=Этот сундук будет
+desc.guardianTier2.Line2=сохранять ваши вещи после смерти
+desc.guardianTier2.Line3=и появляться около вас. Храните
+desc.guardianTier2.Line4=его в инвентаре.
+
+desc.boundMapTier0.Line1=Используйте это чтобы привязать
+desc.boundMapTier0.Line2=карту к себе. (Цена (ур): %2) После
+desc.boundMapTier0.Line3=привязки скрафтите ее
+desc.boundMapTier0.Line4=вместе с Пробужденным посмертным сундуком.
+
+desc.boundMapTier1.Line1=Скрафтите это вместе с 
+desc.boundMapTier1.Line2=Пробужденным посмертным сундуком чтобы создать 
+desc.boundMapTier1.Line3=%2. Он будет появляться
+desc.boundMapTier1.Line4=рядом с вами после смерти.
+
+desc.guardianTier0.Warning=Вы долдны иметь уровень %1 чтобы пробудить это.
+desc.guardianTier1.Warning=%1: "Мне нужна пустая карта для создания карты привязки"
+desc.guardianTier2.Warning=%1: "Если вы умрете, сундук появится около вашей кровати, или последнего места спавна."
+desc.boundMapTier0.Warning=Вам нужно %1 уровней чтобы привязать карту.
+desc.boundMapTier1.Warning=Кажется, все готово!
+desc.dimension.word=измерение
+desc.SpawnLocation.Warning=%1: "Не переживайте, %2! Инвентарь сохранен на координатах
+desc.guardianChestRightClick.Minute=%1: "Только %2 может получить предметы в течении минуты!"
+desc.guardianChestRightClick.Minutes=%1: "Только %2 может получить предметы в течении %3 минут!"
+desc.guardianChestRightClick.Seconds=%1: "Только %2 может получить предметы в течении %3 секунд!"
+desc.boundMapTier0.Crafted=%1: "Отлично! Теперь привяжите карту к себе."
+
+
+config.Category.General=General
+config.Category.Soulbinding=Soulbound Equipment
+config.Category.Damage=Equipment Damage
+
+
+config.Error.Message=An error occurred loading Guardian Chests configuration file!
+
+config.GuardianTier1.LevelRequirement=Level cost to awaken a %1: (default: 1)
+config.BoundMapTier1.LevelRequirement=Level cost to bind an %1: (default: 10)
+config.GuardianIdol.Requirement=Is a %1 required to save items to chests on death? (default: true)
+config.Enchantments.AreAllSoulBound=Keep all enchanted items in inventory after death (false will keep only Soulbound - enderIO, ArsMagicka2 - ones)? (default: false)
+config.AllItems.MakeDrop=Force all non-soulbound items to drop on death (some mods hold inventory items by default) (default: true)
+config.maxDistanceToSearchForAFreeSpot.Radius=When the %1's spawn point is blocked, it will spawn at the closest free spot within this radius, in blocks: (default: 5)
+config.timeBeforeUnsecure.Seconds=Time in seconds after death while a %1 will only drop items for his owner: (default = 300, set 0 to disable security)
+config.Inform.ChestCoordinates=Should the %1 warn of its coordinates? (default = true)
+config.applyDamage.onEquip=Worn equipment will suffer this damage if user dies: (default = 10, 0 to disable)
+config.Damage.isPercentual=Is the damage informed a percentage of total item durability (by default: if true, a 30 durability item will suffer 3 durability, if false it will suffer 10 durability)? (default = true)
+config.Inform.returnChestToInventory=Should a %1 return to the saved inventory after death? Also returns an %2 if the chest was a bound one. (default = true)
